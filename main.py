@@ -73,7 +73,7 @@ def StartCalculating(userAge: int, userSex: str, userBW: int, userHeight: int, u
         print(f"Kaloreid vaja päevas tarbida: {round(energy, 0)}")
         if input("Kas soovid abi toitumis valikuga? y/n \n").lower() == "y":
             help = HelperFunction(int(energy))
-            print("Võiksid tarbida neid toiduaineid: \n")
+            print("Võiksid tarbida neud toiduaineid: \n")
             for i in help:
                 print(f"Toit: {i[0]} ja annab kaloreid {i[1]}")
             return
